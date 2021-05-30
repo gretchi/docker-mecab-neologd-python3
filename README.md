@@ -12,7 +12,7 @@ It works.
 Base image: [centos:8](https://hub.docker.com/_/centos)
 
 
-## alpine3.13 version
+## alpine3.13 (drafts) version
 
 Maybe it doesn't work with Apple Silicon
 The build of "mecab-python3" will fail.
