@@ -10,6 +10,6 @@ AppleSilicon と Intel CPU に対応した Mecab と NEologd 辞書と Python3 D
 | :-- | :-- | :-- |
 | LANG | locale | "C.UTF-8" |
 | TZ | timezone | "Asia/Tokyo" |
-| PYTHON_VERSION | install python version | "3.9.4" |
+| PYTHON_VERSION | install python version (only centos8 version) | "3.9.4" |
 
 
