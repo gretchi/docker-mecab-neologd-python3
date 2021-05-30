@@ -26,6 +26,8 @@ Base image: [python:3.9.5-alpine3.13](https://hub.docker.com/_/python)
 | :-- | :-- | :-- |
 | LANG | locale | "C.UTF-8" |
 | TZ | timezone | "Asia/Tokyo" |
-| PYTHON_VERSION | install python version (only centos8 version) | "3.9.4" |
+| PYTHON_VERSION | install python version (only centos8 version) | "3.9.5" |
 
+## About this Dockerfile
 
+https://qiita.com/syamamura/items/a53fcbf162fadd352bde
