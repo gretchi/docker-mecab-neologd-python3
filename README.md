@@ -9,11 +9,15 @@ AppleSilicon と Intel CPU に対応した Mecab と NEologd 辞書と Python3 D
 
 It works.
 
+Base image: [centos:8](https://hub.docker.com/_/centos)
+
 
 ## alpine3.13 version
 
 Maybe it doesn't work with Apple Silicon
 The build of "mecab-python3" will fail.
+
+Base image: [python:3.9.5-alpine3.13](https://hub.docker.com/_/python)
 
 
 ## Environment
