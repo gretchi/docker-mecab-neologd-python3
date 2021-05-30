@@ -1,6 +1,6 @@
-# docker-mecab-python3-centos8
+# docker-mecab-neologd-python3-centos8
 
-MeCab and NEologd and Python3 on Docker environment for AppleSilicon and Intel CPU
+MeCab and NEologd dictionary and Python3 on Docker environment for AppleSilicon and Intel CPU
 
 AppleSilicon と Intel CPU に対応した Mecab と NEologd 辞書と Python3 Docker 環境
 
