@@ -2,6 +2,7 @@ FROM centos:8
 
 ENV LANG C.UTF-8
 ENV TZ Asia/Tokyo
+ENV NEOLOGD_PATH "/usr/local/lib/mecab/dic/mecab-ipadic-neologd"
 ARG PYTHON_VERSION="3.9.5"
 ARG _ARM_ARCH="arm-unknown-linux-gnu"
 
@@ -41,6 +42,7 @@ RUN cd /tmp \
     fi \
     && make \
     && make install
+RUN mecab-config --libs-only-L | tee /etc/ld.so.conf.d/mecab.conf && ldconfig
 
 
 # mecab-ipadic-neologd
